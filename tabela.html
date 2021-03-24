@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO 8859-1">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="styles/tabelas.css">
+</head>
+<body>
+    <table> <!-- tag para iniciar a tabela-->
+        <tr> <!--table row (linha) é a linha da tabela-->
+            <th>Tecnologia</th> <!-- table head (cabeçalho) é uma coluna de cabeçalho--> 
+            <th>Foco</th>
+            </tr>
+        <tr>
+             <td>Linha 1 Coluna 1</td> <!-- table data (dados em inglês) que representa os dados da coluna-->
+             <td>Linha 1 Coluna 2</td>
+        </tr>
+        
+        <tr>
+            <td>Linha 2 Coluna 1</td>
+            <td>Linha 2 Coluna 2</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Mesclei linhas</td>
+            <!-- ELe vai mesclar o elemento da linha de cima com o elemento da linha de baixo. Se houver algum elemento na linha debaixo ele 
+            será movido  para a direita causando  a impressão de mesclagem-->
+            <td>Linha 2</td>
+        </tr>
+
+        <tr>
+            <td>Linha 3</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Olha o teste aqui</td>
+            <!-- o colspan ele define quantas colunas você vai comer, dando a impressão de célula  mesclada entre colunas-->
+        </tr>
+
+    </table>
+</body>
+</html>

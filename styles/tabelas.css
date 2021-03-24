@@ -1,0 +1,21 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  /* odd = impar 
+  even = par */
+  td:hover{
+    background-color: black;
+    color: white;
+}
+/*  quando passar com o mouse em cima da linha o fundo fica preto
+  e as palavras brancas  *
