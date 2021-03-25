@@ -1,3 +1,15 @@
+h1 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ffff00;
+  background-color: #3366ff;
+  color: #ffcc00;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -9,13 +21,20 @@ table {
     padding: 8px;
   }
   tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #ffffcc;
+  }
+  tr:nth-child(odd){
+    background-color: #ccffff;
   }
   /* odd = impar 
   even = par */
   td:hover{
     background-color: black;
     color: white;
+}
+body{
+  background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1411/Forest_wildflowers-Windows_10_HD_Wallpaper_1366x768.jpg);
+  background-size: 2000px;
 }
 /*  quando passar com o mouse em cima da linha o fundo fica preto
   e as palavras brancas  *
